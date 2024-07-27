@@ -1,0 +1,48 @@
+body {
+    background: url('https://www.toptal.com/designers/subtlepatterns/uploads/halftone-yellow.png'), #e9b658; /* Fondo con patrón y color pastel */
+    background-size: 700px 700px;
+}
+
+.gallery img {
+    transition: transform 0.5s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+.message {
+    background: #FFDBAC; /* Color melocotón */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.question button {
+    transition: transform 0.3s ease;
+}
+
+.question button:hover {
+    transform: translateY(-5px);
+}
+
+#specialMessage {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.noButtonContainer {
+    position: relative;
+    width: 100%;
+    height: 150px; /* Ajusta la altura para que el botón no se mueva fuera de la vista */
+    overflow: hidden; /* Oculta cualquier cosa fuera del contenedor */
+}

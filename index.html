@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Bianca</title>
+    <link rel="icon" href="images/icon.ico" type="image/x-icon"> <!-- Agrega el favicon aquí -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="flex flex-col items-center p-4">
+
+    <header class="text-center my-8">
+        <h1 class="text-5xl font-bold text-red-500">Un mensaje para ti 💌</h1>
+    </header>
+
+    <section class="question my-8 text-center">
+        <h2 class="text-3xl text-yellow-500 mb-4">¿Quieres ser mi chava 🤑?</h2>
+        <div class="flex justify-center gap-4">
+            <button id="yesButton" class="bg-green-500 text-white px-20 py-2 rounded-lg shadow-md hover:transform hover:-translate-y-1 transition">Sí</button>
+            <div class="noButtonContainer">
+                <button id="noButton" class="bg-red-500 text-white px-4 py-2 rounded-lg shadow-md hover:transform hover:-translate-y-1 transition">No</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery flex flex-col items-center mb-8">
+        <!-- Aquí irán las imágenes -->
+    </section>
+
+    <footer class="message text-align mt-8 p-4 bg-blue-500 text-white rounded-lg shadow-md">
+        <p class="text-3xl">
+            Realmente, preferiría poder hacer algo en persona para tener que preguntarte algo importante como esto. Pero la verdad sería más tonto no pedírtelo antes de agosto jajaja. Quería decirte que a pesar de realmente ser muy precipitado al proponerte esto tan rápido debido al poco tiempo que realmente estamos pasando juntos, pero realmente todo este tiempo contigo me hizo gustar muchas cosas de ti, y siendo sincero, estoy dispuesto a seguir explorando cada cosa de ti y quererte igual como lo hago. 💌 Ya fuera de todo lo que ves en la página web que me tardé más de lo que esperaba, quiero que esto sea una pequeña prueba de lo convencido y dispuesto que quiero estar contigo, y obviamente, demostrar mi intención contigo de ahora en adelante, aunque siendo justos, creo que se notó mucho antes de siquiera hacer esto para ti xd. El cuestionario que te hice hacer simplemente era para conocer más de ti en lo que realizaba esto, porque se me fue el tiempo y no quería tampoco que esperaras en lo que hacía esto xd. Solo quiero que sepas que te quiero mucho, y si no fuera una molestia, poder conocernos mucho más cada día. 💗 Lo que pongo arriba, está un poco de más porque realmente no espero que contestes realmente a la pregunta, por como mencioné que tal vez sea algo temprano para decidirlo, y ya, espero que te haya gustado. ❣
+        </p>
+    </footer>
+
+    <audio id="backgroundMusic" loop>
+        <source src="audio/mp3/ostaudio.mp3" type="audio/mp3">
+        Tu navegador no soporta la reproducción de audio.
+    </audio>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js"></script>
+
+</body>
+</html>
